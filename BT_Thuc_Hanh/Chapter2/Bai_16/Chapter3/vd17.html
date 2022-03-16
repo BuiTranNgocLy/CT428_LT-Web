@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <script src="vidu.js"></script>
+   <h1 class="title">BÌNH CHỌN THÀNH PHỐ YÊU THÍCH</h1>
+  
+    <form method="post" action="#">
+        Họ tên: <input name="hoten" type="text" value="" >
+        <br>
+        Phái:<input type="radio" name="gioitinh" value="nu">Nữ
+        <input type="radio" name="gioitinh" value="nam">Nam
+    
+        <br>
+        Chọn địa điểm:
+        <br><input type="checkbox" name="place" value="Ha Noi">Hà Nội
+        <br><input type="checkbox" name="place" value="Nha Trang">Nha Trang
+        <br><input type="checkbox" name="place" value="TP HCM">TP HCM
+        <br><input type="checkbox" name="place" value="Can Tho">Cần Thơ
+    
+        <br>Thành phố yêu thích nhất:
+        <select name="thichnhat" id="thichnhat">
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="Nha Trang">Nha Trang</option>
+            <option value="TP HCM">TP HCM</option>
+            <option value="Can Tho">Cần Thơ</option>
+        </select>
+
+        <p><input type="button" onClick="binhchon();" name="button" value="Bình chọn"></p>
+    </form>    
+    Kết quả:
+    <p id="dschon">&nbsp;</p>
+
+</body>
+</html>
