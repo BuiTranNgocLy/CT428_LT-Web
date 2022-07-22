@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Checker</title>
+</head>
+<body>
+    <script src="./dangki.js"></script>
+    <h1>Đăng kí tài khoản hệ thống</h1>
+    <form method="post" action="" id="loginform">
+        Tên đăng nhập *    
+        <input type="text" id="username" name="username" value=""/>
+        <span id="username_error"></span>
+        <br>
+        Mật khẩu *
+        <input type="text" id="password" name="password" value=""/>
+        <span id="password_error"></span>
+        <br>
+        Nhập lại mật khẩu *
+        <input type="text" id="repassword" name="repassword" value=""/>
+        <span id="repassword_error"></span>
+        <br>
+        Họ  của  bạn *
+        <input type="text" id="fname" name="fname"value=""/>
+        <span id="fname_error"></span>
+        <br>
+        Tên  của  bạn *
+        <input type="text" id="lname" name="lname"value=""/>
+        <span id="lname_error"></span>
+        <br>
+        Email
+        <input type="text" id="email" name="email" value=""/>
+        <span id="email_error"></span>
+        <br>
+        Địa chỉ
+        <input type="text" id="address" name="address" value=""/>
+        <span id="address_error"></span>
+        <br>
+        <input type="submit" onclick="validate();" id="btn" name="btn" value="Đăng ký"/>
+    </form>
+</body>
+</html>

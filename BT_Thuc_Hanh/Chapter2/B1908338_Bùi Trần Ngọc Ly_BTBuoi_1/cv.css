@@ -1,0 +1,18 @@
+td.top {
+  vertical-align: top;
+}
+.left-table{
+  text-align: right;
+  width: 150px;
+}
+.header-table-left{
+  vertical-align: top;
+  text-align: right;
+}
+.header-table-right img{
+  width: 200px;
+  height: 200px;
+}
+section{
+  margin-bottom: 50px;
+}
